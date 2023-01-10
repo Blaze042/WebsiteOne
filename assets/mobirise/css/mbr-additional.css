@@ -935,8 +935,6 @@ a {
 .cid-s48OLK6784 {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-s48OLK6784 nav.navbar {
   position: fixed;
@@ -1029,7 +1027,7 @@ a {
   min-height: 77px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0);
 }
 .cid-s48OLK6784 .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
@@ -1055,7 +1053,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-s48OLK6784 .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 6rem);
   }
 }
 .cid-s48OLK6784 .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1373,6 +1371,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 @media (max-width: 768px) {
   .cid-tswuMtkGVR .embla__button {
@@ -1585,8 +1584,6 @@ a {
 .cid-tsvYx7cTWX {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-tsvYx7cTWX nav.navbar {
   position: fixed;
@@ -1679,7 +1676,7 @@ a {
   min-height: 77px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0);
 }
 .cid-tsvYx7cTWX .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
@@ -1705,7 +1702,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tsvYx7cTWX .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 6rem);
   }
 }
 .cid-tsvYx7cTWX .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -2076,8 +2073,6 @@ a {
 .cid-tswAQYdg7P {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-tswAQYdg7P nav.navbar {
   position: fixed;
@@ -2170,7 +2165,7 @@ a {
   min-height: 77px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0);
 }
 .cid-tswAQYdg7P .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
@@ -2196,7 +2191,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tswAQYdg7P .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 6rem);
   }
 }
 .cid-tswAQYdg7P .navbar.collapsed .dropdown-menu .dropdown-submenu {
