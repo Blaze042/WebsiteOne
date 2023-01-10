@@ -765,6 +765,23 @@ a {
 .cid-tswQdAoaYb .mbr-text {
   color: #fff0b0;
 }
+.cid-tsx0d4qTOk {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/mbr-1920x1134.jpg");
+}
+.cid-tsx0d4qTOk .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tsx0d4qTOk .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
 .cid-s48udlf8KU {
   padding-top: 5rem;
   padding-bottom: 2rem;
