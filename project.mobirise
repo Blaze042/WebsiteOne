@@ -63,11 +63,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "National Environmental Awareness and Education Act of 2008",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/mapeh%20world-1000x1000.png"
       },
       "components": [
         {
