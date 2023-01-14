@@ -3843,7 +3843,7 @@ a {
   }
 }
 .cid-tsOxxb1jDU {
-  padding-top: 120px;
+  padding-top: 105px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/mbr-1920x1020.png");
 }
@@ -5366,7 +5366,7 @@ a {
   }
 }
 .cid-tsOGlfw2SV {
-  padding-top: 120px;
+  padding-top: 105px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/mbr-1920x1134.jpg");
 }
@@ -5871,7 +5871,7 @@ a {
   color: #441a1a;
 }
 .cid-tsU8pzNrJ7 {
-  padding-top: 120px;
+  padding-top: 105px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/improper-use-of-land-974x628.jpg");
 }
@@ -6883,6 +6883,9 @@ a {
   height: 100%;
   position: absolute;
   top: 0;
+}
+.cid-tsU2s9a3Uy .row {
+  flex-direction: row-reverse;
 }
 .cid-tsU2s9a3Uy .row {
   align-items: center;
