@@ -3843,7 +3843,7 @@ a {
   }
 }
 .cid-tsOxxb1jDU {
-  padding-top: 105px;
+  padding-top: 120px;
   padding-bottom: 0px;
   background-image: url("../../../assets/images/mbr-1920x1020.png");
 }
@@ -6899,6 +6899,23 @@ a {
   .cid-tsU2s9a3Uy .text-wrapper {
     padding: 0 2rem;
   }
+}
+.cid-tt0UqW1nyS {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-image: url("../../../assets/images/gradient1-275x183.jpg");
+}
+.cid-tt0UqW1nyS .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tt0UqW1nyS .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 .cid-s48P1Icc8J {
   padding-top: 2rem;
