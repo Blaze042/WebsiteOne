@@ -77,6 +77,45 @@
             </div>
         </div>
     </div>
+<!-- put this div where you want the chat room to render, it will fill its parent div by default -->
+<div
+  id="rml-room-1"
+  data-rml-room
+  data-rml-version="12.sep.2022"
+></div>
+
+<script>
+  window.rmlCalls = window.rmlCalls || {};
+  function rml() {
+    let ri = arguments[1].roomElementID;
+    if (!rmlCalls[ri]) rmlCalls[ri] = [];
+    rmlCalls[ri].push(arguments);
+  }
+
+  rml('config', {
+    options: {
+      embedPosition: 'inline',
+      collapsedMode: 'none',
+      collapsedModeOnlineLabel: 'How can we help you?',
+      collapsedModeOfflineLabel: 'Contact Us',
+      greetingMessageUsername: 'Support Team',
+      greetingMessage: 'Welcome. :wave: Type a message below if you have any questions!',
+    },
+    widgetID: 'wgt_cf33ebo946celk7i4bvg',
+    pk: 'FXYAwkdWiPGHdnwk2NDyXWU-28ziY3piZly15rHU3HYb',
+    // Replace with the ID of the room-containing element.
+    roomElementID: 'rml-room-1',
+  });
+
+  rml('register', {
+    embedType: '',
+    userNaming: 'geo',
+
+    // Replace with the ID of the room-containing element.
+    roomElementID: 'rml-room-1',
+  });
+</script>
+<script src="https://embed.roomlio.com/embed.js"></script>
 </section>
 
 <section data-bs-version="5.1" class="footer3 cid-s48P1Icc8J" once="footers" id="footer3-3p">
