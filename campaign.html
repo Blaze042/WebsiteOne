@@ -31,6 +31,49 @@
   
 </head>
 <body>
+<script>
+  window.rmlCalls = window.rmlCalls || {};
+  function rml() {
+    let ri = arguments[1].roomElementID;
+    if (!rmlCalls[ri]) rmlCalls[ri] = [];
+    rmlCalls[ri].push(arguments);
+  }
+
+  rml('config', {
+    options: {
+      embedPosition: 'bottomRight',
+      collapsedMode: 'chip',
+      collapsedModeOnlineLabel: 'Chat',
+      collapsedModeOfflineLabel: 'Hello',
+      greetingMessageUsername: 'Lobby',
+      greetingMessage: 'Welcome. :wave: Type a message below!',
+      selfIdentifyFormFields: {
+        displayName: { label: 'Display Name', required: true, enabled: true },
+        first: { label: 'First Name', required: true, enabled: true },
+        last: { label: 'Last Name', required: true, enabled: true },
+        email: { label: 'Email', required: false, enabled: false },
+      },
+      selfIdentifyGreetingMsg: 'Your public chat info.',
+      selfIdentifyButtonLabel: 'Start chatting now',
+    },
+    widgetID: 'wgt_cf33ebo946celk7i4bvg',
+    pk: 'FXYAwkdWiPGHdnwk2NDyXWU-28ziY3piZly15rHU3HYb',
+    // Replace with the ID of the room-containing element.
+    roomElementID: 'rml-room-1',
+  });
+
+  rml('register', {
+    options: {
+      roomKey: 'WIvBVoj6eSCVQa6BuJ6_c_m_H0oqzUYpDEOHTKHH7sCm',
+    },
+    embedType: 'singleRoom',
+    userNaming: 'visitorSpecified',
+
+    // Replace with the ID of the room-containing element.
+    roomElementID: 'rml-room-1',
+  });
+</script>
+<script src="https://embed.roomlio.com/embed.js"></script>
   
   <section data-bs-version="5.1" class="menu cid-s48OLK6784" once="menu" id="menu1-1l">
     
