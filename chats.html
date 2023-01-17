@@ -64,20 +64,9 @@
 </section>
 
 <section data-bs-version="5.1" class="info1 cid-ttaQXa8xuB mbr-parallax-background" id="info1-3q">
-    
 
-    
-    <div class="mbr-overlay" style="opacity: 0; background-color: rgb(68, 121, 217);"></div>
-    <div class="align-center container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8">
-                
-                
-                
-            </div>
-        </div>
-    </div>
-<!-- put this div where you want the chat room to render, it will fill its parent div by default -->
+<section>
+  <!-- put this div where you want the chat room to render, it will fill its parent div by default -->
 <div
   id="rml-room-1"
   data-rml-room
@@ -100,6 +89,14 @@
       collapsedModeOfflineLabel: 'Contact Us',
       greetingMessageUsername: 'Support Team',
       greetingMessage: 'Welcome. :wave: Type a message below if you have any questions!',
+      selfIdentifyFormFields: {
+        displayName: { label: 'Display Name', required: true, enabled: true },
+        first: { label: 'First Name', required: false, enabled: true },
+        last: { label: 'Last Name', required: false, enabled: true },
+        email: { label: 'Email', required: false, enabled: true },
+      },
+      selfIdentifyGreetingMsg: 'Your public chat info.',
+      selfIdentifyButtonLabel: 'Start chatting now',
     },
     widgetID: 'wgt_cf33ebo946celk7i4bvg',
     pk: 'FXYAwkdWiPGHdnwk2NDyXWU-28ziY3piZly15rHU3HYb',
@@ -108,14 +105,27 @@
   });
 
   rml('register', {
-    embedType: '',
-    userNaming: 'geo',
+    embedType: 'allRooms',
+    userNaming: 'visitorSpecified',
 
     // Replace with the ID of the room-containing element.
     roomElementID: 'rml-room-1',
   });
 </script>
 <script src="https://embed.roomlio.com/embed.js"></script>
+</section>
+
+    
+    <div class="mbr-overlay" style="opacity: 0; background-color: rgb(68, 121, 217);"></div>
+    <div class="align-center container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                
+                
+                
+            </div>
+        </div>
+    </div>
 </section>
 
 <section data-bs-version="5.1" class="footer3 cid-s48P1Icc8J" once="footers" id="footer3-3p">
