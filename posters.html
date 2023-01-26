@@ -31,49 +31,6 @@
   
 </head>
 <body>
-<script>
-  window.rmlCalls = window.rmlCalls || {};
-  function rml() {
-    let ri = arguments[1].roomElementID;
-    if (!rmlCalls[ri]) rmlCalls[ri] = [];
-    rmlCalls[ri].push(arguments);
-  }
-
-  rml('config', {
-    options: {
-      embedPosition: 'bottomRight',
-      collapsedMode: 'chip',
-      collapsedModeOnlineLabel: 'Chat',
-      collapsedModeOfflineLabel: 'Hello',
-      greetingMessageUsername: 'Lobby',
-      greetingMessage: 'Welcome. :wave: Type a message below!',
-      selfIdentifyFormFields: {
-        displayName: { label: 'Display Name', required: true, enabled: true },
-        first: { label: 'First Name', required: true, enabled: true },
-        last: { label: 'Last Name', required: true, enabled: true },
-        email: { label: 'Email', required: false, enabled: false },
-      },
-      selfIdentifyGreetingMsg: 'Your public chat info.',
-      selfIdentifyButtonLabel: 'Start chatting now',
-    },
-    widgetID: 'wgt_cf33ebo946celk7i4bvg',
-    pk: 'FXYAwkdWiPGHdnwk2NDyXWU-28ziY3piZly15rHU3HYb',
-    // Replace with the ID of the room-containing element.
-    roomElementID: 'rml-room-1',
-  });
-
-  rml('register', {
-    options: {
-      roomKey: 'WIvBVoj6eSCVQa6BuJ6_c_m_H0oqzUYpDEOHTKHH7sCm',
-    },
-    embedType: 'singleRoom',
-    userNaming: 'visitorSpecified',
-
-    // Replace with the ID of the room-containing element.
-    roomElementID: 'rml-room-1',
-  });
-</script>
-<script src="https://embed.roomlio.com/embed.js"></script>
   
   <section data-bs-version="5.1" class="menu cid-s48OLK6784" once="menu" id="menu1-37">
     
@@ -122,87 +79,10 @@
                 <div class="text-wrapper text-center">
                     <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1">
                         <strong>Posters</strong></h1>
-                    <p class="mbr-text mbr-fonts-style display-7">(Submissions Pending...)<br>Posters carefully-designed by the campaign members.<br></p>
+                    
                     <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-7" href="https://forms.gle/wF12N5LoitFLixDt8" target="_blank">Post Your Poster &gt;</a></div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="timeline3 cid-tt4cQoghCv mbr-parallax-background" id="timeline3-3d">
-    
-
-    
-    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(255, 255, 255);">
-    </div>
-    <div class="container">
-        <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Competition Timeline</strong></h3>
-            
-        </div>
-        <div class="timelines-container mt-4">
-            <div class="row timeline-element first-separline mb-5">
-                <div class="timeline-date col-12">
-                    <div class="timeline-date-wrapper">
-                        <p class="mbr-timeline-date display-7"><strong>
-                            January 15 2023</strong></p>
-                    </div>
-                </div>
-                <span class="iconBackground"></span>
-                <div class="col-12 col-md-6">
-                    <div class="image-wrapper">
-                        <img src="assets/images/proposal-2-1128x1344.png" alt="Proposal" title="">
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="timeline-text-wrapper">
-                        <h4 class="mbr-timeline-title mbr-fonts-style mb-0 display-5"><strong>Proposed Competition</strong></h4>
-                        <p class="mbr-text mbr-fonts-style mt-3 mb-0 display-7">
-                            A proposed prize pool of ₱450 (₱50 for the highest points in quiz per/campaign,&nbsp;₱150 for the best poster made by the community, and&nbsp;₱150 for the best poster made by campaign members.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row timeline-element first-separline mb-5">
-                <div class="timeline-date col-12">
-                    <div class="timeline-date-wrapper">
-                        <p class="mbr-timeline-date display-7"><strong>
-                            January 16 2023</strong></p>
-                    </div>
-                </div>
-                <span class="iconBackground"></span>
-                <div class="col-12 col-md-6">
-                    <div class="image-wrapper">
-                        <a href="https://forms.gle/UVnAkE5UYDQfq4EE6" target="_blank"><img src="assets/images/campaign-promo-1128x1128.jpg" alt="Campaign Poster Promotion" title=""></a>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="timeline-text-wrapper">
-                        <h4 class="mbr-timeline-title mbr-fonts-style mb-0 display-5">
-                            <strong>Competition Approval</strong></h4>
-                        <p class="mbr-text mbr-fonts-style mt-3 mb-0 display-7"><strong>Competition Criteria&nbsp;</strong>➤<strong><br></strong><strong>--------------------------------------------------------<br>[Quiz]&nbsp;</strong>➤<br><strong>The quiz will consist of 15 question, whoever is the highest and fastest will be the winner. (Highest score achiever will be the priority, if there is a tie, the fastest one will be considered the winner.)<br></strong><br><strong>Highest &amp; Fastest in Quiz&nbsp;</strong>➤<strong>&nbsp;₱50.00</strong><strong><br>--------------------------------------------------------</strong><br><strong>[Poster Making]&nbsp;</strong>➤<strong><br></strong><strong><br>(Community)&nbsp;</strong>➤<br><strong>The poster making contest criteria for (Community Posters):
-<br>Design&nbsp;</strong>➤<strong>&nbsp;30%
-<br>Message&nbsp;</strong>➤<strong>&nbsp;20%
-<br>Relevance&nbsp;</strong>➤<strong>&nbsp;20%
-<br>Originality&nbsp;</strong>➤<strong>&nbsp;20%</strong><br><strong>Fan Favorite&nbsp;</strong>➤<strong>&nbsp;10%<br>{Community Posters will be critiqued by the campaign members and other G10 Students, the winner will receive the prize money 1 week after the competition ends.}<br></strong><br><strong>Winner&nbsp;</strong>➤<strong>&nbsp;₱150.00</strong><strong><br>--------------------------------------------------------</strong><br><strong>(Campaign Members)&nbsp;</strong>➤<br><strong>The poster making contest criteria for (Campaign Members Posters):
-<br>Design&nbsp;</strong>➤<strong>&nbsp;30%
-<br>Message&nbsp;</strong>➤<strong>&nbsp;20%
-<br>Relevance&nbsp;</strong>➤<strong>&nbsp;20%
-<br>Originality&nbsp;</strong>➤<strong>&nbsp;20%</strong><br><strong>Fan Favorite&nbsp;</strong>➤<strong>&nbsp;10%<br>{Campaign Members Posters will be critiqued by the Game Master, G10 Students (except campaign members), and Maam April, the winner will receive the prize money 1 week after the competition ends.}<br></strong><br><strong>Winner&nbsp;</strong>➤<strong>&nbsp;₱150.00</strong><br><strong>--------------------------------------------------------</strong><br></p>
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
         </div>
     </div>
 </section>
@@ -225,16 +105,6 @@
     </div>
 </section>
 
-<section>
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; background-color: CornflowerBlue;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 0em; margin-bottom: 0em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://drive.google.com/embeddedfolderview?id=1fdyG8DaRcrtm-l_MEJwYs7qiHee0H7ELTJKZcxd40gMUrvZSQwPzEOz-kKcrP-WvOOJ9CURw#grid" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-</section>
-
 <section data-bs-version="5.1" class="footer3 cid-s48P1Icc8J" once="footers" id="footer3-38">
 
     
@@ -254,11 +124,11 @@
             </div>
             
             <div class="row row-copirayt">
-                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">Version 0.011623.0017 (beta-release)</p>
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">Version 1.012623.0 (public-release)</p>
             </div>
         </div>
     </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem; background-color: rgb(79, 96, 117);"><a href="https://www.youtube.com/@the_paragon_42/featured" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center; color:Coral;" class="display-7">Made by &#8204;</p><a style="z-index:1; color:orange;" href="https://www.youtube.com/@the_paragon_42/featured"><b>The Paragon Channel</b></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/embla/embla.min.js"></script>  <script src="assets/embla/script.js"></script>  <script src="assets/theme/js/script.js"></script>  
+</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/2930414" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">Made with &#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/no-code-website-builder.html">No Code Website Builder</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
   <input name="animation" type="hidden">
